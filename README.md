@@ -4,3 +4,5 @@
  
  06/11/2023 user story progress Mike&Ray&Ruben
  08/11/2023 project dashboard and design plan finalization Mike&Ray& Ruben.
+ 
+ 12/10/2023 finished the project by Ruben Ancheta
