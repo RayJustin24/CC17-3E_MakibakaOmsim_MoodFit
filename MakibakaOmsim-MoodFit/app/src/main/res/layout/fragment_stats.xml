@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:columnCount="2"
+    android:rowCount="2"
+    android:alignmentMode="alignMargins"
+    android:columnOrderPreserved="false">
+
+    <!-- Sleep Stat -->
+    <TextView
+        android:id="@+id/sleepStat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="Sleep"
+        android:gravity="center" />
+
+    <!-- Mood Stat -->
+    <TextView
+        android:id="@+id/moodStat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="Mood"
+        android:gravity="center" />
+
+    <!-- Activity Stat -->
+    <TextView
+        android:id="@+id/activityStat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="Activity"
+        android:gravity="center" />
+
+    <!-- Hydration Stat -->
+    <TextView
+        android:id="@+id/hydrationStat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="Hydration"
+        android:gravity="center" />
+
+</GridLayout>

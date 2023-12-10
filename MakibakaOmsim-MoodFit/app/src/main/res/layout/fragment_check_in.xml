@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Sleep Slider -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sleep (hours)" />
+    <SeekBar
+        android:id="@+id/sleepSlider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="24" />
+
+    <!-- Mood Slider -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mood (Sad to Happy)" />
+    <SeekBar
+        android:id="@+id/moodSlider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="10" />
+
+    <!-- Activity Slider -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activity (minutes)" />
+    <SeekBar
+        android:id="@+id/activitySlider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="120" />
+
+    <!-- Hydration Slider -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hydration (cups)" />
+    <SeekBar
+        android:id="@+id/hydrationSlider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="10" />
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/submitCheckInButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+</LinearLayout>

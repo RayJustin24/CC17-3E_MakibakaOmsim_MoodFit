@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">LoginPage</string>
+    <string name="app_name">Moodfit</string>
+    <string name="home">Home</string>
+    <string name="tasks">Tasks</string>
+    <string name="add_post">Add Post</string>
+    <string name="message">Message</string>
+    <string name="profile">Profile</string>
+    <string name="edit">Edit</string>
+    <string name="sleep_stat">Sleep: %1$d hours</string>
+    <string name="mood_stat">Mood: %1$d/10</string>
+    <string name="activity_stat">Activity: %1$d minutes</string>
+    <string name="hydration_stat">Hydration: %1$d cups</string>
 </resources>

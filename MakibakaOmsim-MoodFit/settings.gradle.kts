@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "LoginPage"
+rootProject.name = "Moodfit"
 include(":app")
